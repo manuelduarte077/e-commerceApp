@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/iconBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -165,8 +165,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="276dp"
-        android:layout_height="392dp"
+        android:layout_width="295dp"
+        android:layout_height="429dp"
         android:layout_marginTop="16dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"

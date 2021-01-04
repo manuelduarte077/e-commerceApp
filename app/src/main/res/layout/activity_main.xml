@@ -143,11 +143,11 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        tools:listitem="@layout/category_row_item" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/productRecycler"
@@ -165,14 +165,14 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/cart_button_bg"
         android:drawableRight="@drawable/ic_cart"
         android:fontFamily="@font/rubik_medium"
         android:includeFontPadding="false"
+        android:padding="16dp"
+        android:paddingEnd="16dp"
         android:text="Your Cart Is Empty"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
